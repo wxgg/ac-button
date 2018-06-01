@@ -1,12 +1,17 @@
 ## app-pagination
 
+## 使用
+```
+    
+```
+
 ## API
 
 |参数|说明|类型|默认值|
 |:--|:---:|:--:|---:|
+|actype|颜色类型|string||
 
 
-|actype|颜色类型|string|
                     //品牌色
                     brand_btn
                     //通用按钮
@@ -31,6 +36,9 @@
                      org_btn-o
                     //搜索的button
                     search_icon_btn;|
+                    
+                    
+                    
 #### 开发调试
 
 ```sh
@@ -40,3 +48,4 @@ $ cd ac-pagination
 $ npm install
 $ npm run dev
 ```
+

@@ -2,18 +2,21 @@ import React, { Component } from 'react';
 import Button from 'bee-button';
 import './style.css';
 var AcButton = class extends Component {
+
     static defaultProps = {
         className: '',
         onClick: {},
-        actype:'default_btn'
+        colors:'default',
     }
     render() {
         let btn = 'button'
         const { className, onClick } = this.props;
+        let clas = this.props["colors"]+"_btn";
+        console.log("clas",clas);
         return (
             <Button
                 {...this.props}
-                className={`${btn} ${this.props.actype} ${className}`}
+                className={`${btn} ${clas} ${className}`}
                 onClick={(e) => { onClick(e, this) }}
             />
         );

@@ -11,7 +11,7 @@ const UglifyJSPlugin = require("uglifyjs-webpack-plugin");
 //服务启动设置
 const svrConfig = {
   host: "127.0.0.1",
-  port: 3000,
+  port: 3003,
   //是否开启静默模式？true开启，紧显示错误和警告，如要看信息为false。
   noInfo: false
 };
