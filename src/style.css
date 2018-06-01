@@ -231,7 +231,7 @@ button.org_btn:disabled{
   color:rgba(165,173,186,1);
 }
 /**  组织-o **/
-button.org_btn_o {
+button.org_o {
   color: white;
   width: 86px;
   height: 32px;
@@ -241,17 +241,17 @@ button.org_btn_o {
   border:1px solid rgba(223,53,40,1);
   color: rgba(223,53,40,1);
 }
-button.org_btn:hover{
+button.org_o:hover{
   background:white;
   opacity: 0.8;
 }
-button.org_btn:active{
+button.org_o:active{
   background:white;
   font-family:PingFangSC-Medium;
   color:rgba(71,77,84,1);
 }
 
-button.org_btn:disabled{
+button.org_o:disabled{
   background:rgba(9,44,66,0.04);
   color:rgba(165,173,186,1);
 }
