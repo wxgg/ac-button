@@ -19,6 +19,7 @@ import {AcButton} from 'ac-tools';
 |:--|:---:|:--:|---:|
 |colors|颜色类型|string|default|
 |onClick|点击事件|fun|(e,this)|
+|disabled|true/false| bool| --|
 
 * 当前按钮集成Button所有的属性 
        
