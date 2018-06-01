@@ -22,12 +22,12 @@ import {AcButton} from '../../src/index';
                 <AcButton colors="default_line">带边框按钮</AcButton>
                 <AcButton colors="default_alpha">透明按钮</AcButton>
 
-                <AcButton colors="check_selected">button</AcButton>
-                <AcButton colors="check_close">button</AcButton>
-                <AcButton colors="default_white">button</AcButton>
-                <AcButton colors="search_icon">button</AcButton>
-                <AcButton colors="org">button</AcButton>
-                <AcButton colors="org_o">button</AcButton>
+                {/* <AcButton colors="check_selected">button</AcButton> */}
+                {/* <AcButton colors="check_close">button</AcButton> */}
+                <AcButton colors="default_white">默认按钮</AcButton>
+                <AcButton colors="search_icon">默认按钮</AcButton>
+                <AcButton colors="org">品牌色</AcButton>
+                <AcButton colors="org_o">带边框按钮</AcButton>
 
                 {/* <p>禁用</p>
                 <div>

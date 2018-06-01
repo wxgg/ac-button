@@ -22,7 +22,7 @@ import {AcButton} from '../../src/index';
                 <AcButton colors="brand">品牌色</AcButton>
                 <AcButton colors="danger">危险</AcButton>
                 <AcButton colors="warning">警告</AcButton>
-                <AcButton colors="default">info</AcButton>
+                <AcButton colors="default">信息</AcButton>
             </div>
         )
     }
