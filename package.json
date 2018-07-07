@@ -7,6 +7,14 @@
     "dev": "uba server",
     "build": "uba build"
   },
+  "bugs": {
+    "url": "https://github.com/tinper-acs/ac-button/issues"
+  },
+  "homepage": "https://github.com/tinper-acs/ac-button#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinper-acs/ac-button.git"
+  },
   "author": "jonyshi@yonyou.com",
   "license": "MIT",
   "devDependencies": {
