@@ -1,11 +1,11 @@
 ## ac-button
 
 ```
-$ ynpm install ac-tools --save
+$ ynpm install ac-button --save
 
 引入
 
-import {AcButton} from 'ac-tools';
+import {AcButton} from 'ac-button';
 
 ```
 
