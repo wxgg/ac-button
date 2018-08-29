@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title></title>
+    <title>ac-button</title>
     <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css"/>
     <link type="text/css" rel="stylesheet" href="assets/css/bootstrap-responsive.css"/>
     <link type="text/css" rel="stylesheet" href="assets/css/pilcrow.css"/>
@@ -14,10 +14,58 @@
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="span3"><ul class="nav nav-list">
+    <li class="sidebar-header-2"><a href="#ac-button">ac-button</a></li>
+    <li class="sidebar-header-2"><a href="#效果">效果</a></li>
+    <li class="sidebar-header-2"><a href="#api">API</a></li>
+    <li class="sidebar-header-4"><a href="#开发调试">开发调试</a></li>
 </ul>
       </div>
-      <div class="span9 main"><p>### </p>
-      </div>
+      <div class="span9 main"><h2 id="ac-button">ac-button</h2>
+<pre class="hljs"><code>$ ynpm <span class="hljs-keyword">install</span> ac-button <span class="hljs-comment">--save</span>
+
+引入
+
+<span class="hljs-keyword">import</span> {AcButton} <span class="hljs-keyword">from</span> <span class="hljs-string">'ac-button'</span>;
+</code></pre><h2 id="效果">效果</h2>
+<p class="img-container"><img src="media/15355446781426/15355454605269.jpg" alt=""></p>
+<h2 id="api">API</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:center">说明</th>
+<th style="text-align:center">类型</th>
+<th style="text-align:right">默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">colors</td>
+<td style="text-align:center">颜色类型</td>
+<td style="text-align:center">string</td>
+<td style="text-align:right">default</td>
+</tr>
+<tr>
+<td style="text-align:left">onClick</td>
+<td style="text-align:center">点击事件</td>
+<td style="text-align:center">fun</td>
+<td style="text-align:right">(e,this)</td>
+</tr>
+<tr>
+<td style="text-align:left">disabled</td>
+<td style="text-align:center">true/false</td>
+<td style="text-align:center">bool</td>
+<td style="text-align:right">--</td>
+</tr>
+</tbody>
+</table>
+<ul class="list">
+<li>当前按钮集成Button所有的属性 </li>
+</ul>
+<h4 id="开发调试">开发调试</h4>
+<pre class="hljs"><code>$ <span class="hljs-built_in">cd</span> ac-button
+$ npm install
+$ npm run dev</code></pre>      </div>
     </div>
   </div>
 
