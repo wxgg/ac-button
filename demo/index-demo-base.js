@@ -7,7 +7,6 @@ import Button from 'bee-button';
 import './demo.scss';
 
 
-
 const CARET = <i className="uf uf-arrow-down"></i>;
 
 const CARETUP = <i className="uf uf-arrow-up"></i>;

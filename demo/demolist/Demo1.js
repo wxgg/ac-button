@@ -6,7 +6,7 @@
  */
 
 import React, { Component } from 'react';
-import {AcButton} from '../../src/index';
+import AcButton from '../../src/index';
  class Demo1 extends Component {
     constructor(props){
         super(props)

@@ -125,7 +125,7 @@ button.check_selected_btn{
   width:22px;
   height:22px;
   color:rgb(118, 127, 139);
-  // border: 1px solid rgba(117,127,140,1);
+  /* border: 1px solid rgba(117,127,140,1); */
   background: transparent;
   margin: 0px;
   margin-left:2px;

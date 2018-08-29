@@ -9,8 +9,9 @@ import {AcButton} from 'ac-button';
 
 ```
 
-##效果
- 
+## 效果
+
+![e](http://upload-images.jianshu.io/upload_images/8194969-2fa0cbb748b9aeca?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
  
 
 ## API
