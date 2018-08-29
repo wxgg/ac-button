@@ -19,10 +19,10 @@ import AcButton from '../../src/index';
     render () {
         return (
             <div className="demoPadding">
-                <AcButton colors="brand">品牌色</AcButton>
-                <AcButton colors="danger">危险</AcButton>
-                <AcButton colors="warning">警告</AcButton>
-                <AcButton colors="default">信息</AcButton>
+                <AcButton bcolors="brand">品牌色</AcButton>
+                <AcButton bcolors="danger">危险</AcButton>
+                <AcButton bcolors="warning">警告</AcButton>
+                <AcButton bcolors="default">信息</AcButton>
             </div>
         )
     }

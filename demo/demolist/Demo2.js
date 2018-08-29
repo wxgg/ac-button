@@ -19,14 +19,14 @@ import AcButton from '../../src/index';
     render () {
         return (
             <div className="demoPadding">
-                <AcButton colors="default_line">带边框按钮</AcButton>
-                <AcButton colors="default_alpha">透明按钮</AcButton>
- 
-                <AcButton colors="default_white">默认按钮</AcButton>
-                <AcButton colors="search_icon">默认按钮</AcButton>
-                <AcButton colors="org">品牌色</AcButton>
-                <AcButton colors="org_o">带边框按钮</AcButton>
- 
+                <AcButton bcolors="default_line">带边框按钮</AcButton>
+                <AcButton bcolors="default_alpha">透明按钮</AcButton>
+
+                <AcButton bcolors="default_white">默认按钮</AcButton>
+                <AcButton bcolors="search_icon">默认按钮</AcButton>
+                <AcButton bcolors="org">品牌色</AcButton>
+                <AcButton bcolors="org_o">带边框按钮</AcButton>
+
             </div>
         )
     }

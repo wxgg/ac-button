@@ -12,8 +12,7 @@ var AcButton = class extends Component {
     render() {
         let btn = 'button'
         const { className, onClick } = this.props;
-        let clas = this.props["colors"]+"_btn";
-        console.log("clas",clas);
+        let clas = this.props["bcolors"]+"_btn";
         return (
             <Button
                 {...this.props}

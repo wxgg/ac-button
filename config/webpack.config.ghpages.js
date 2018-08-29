@@ -19,7 +19,7 @@ module.exports = webpackMerge(baseConfig, {
   output: {
       filename: '[name].[hash].js',
       path: path.join(__dirname, '../ghpages'),
-      publicPath: '/'
+      publicPath: '/ac-button/'
   },
   module: {
     rules: [
@@ -48,7 +48,7 @@ module.exports = webpackMerge(baseConfig, {
       new UglifyJsPlugin({
         cache: true,
         parallel: true,
-        sourceMap: true 
+        sourceMap: true
       }),
       new OptimizeCSSAssetsPlugin({})  // use OptimizeCSSAssetsPlugin
     ], // [new UglifyJsPlugin({...})]
