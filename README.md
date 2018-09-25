@@ -1,7 +1,7 @@
 ## ac-button
 
 ```
-$ ynpm install ac-button --save
+$ ynpm install @yonyou/ac-button --save
 
 引入
 
