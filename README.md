@@ -7,6 +7,18 @@ $ ynpm install ac-button --save
 
 import {AcButton} from 'ac-button';
 
+样式
+
+import '@yonyou/ac-button/dist/index.css';
+
+示例代码
+ 
+
+<AcButton bcolors="brand">品牌色</AcButton>
+<AcButton bcolors="danger">危险</AcButton>
+<AcButton bcolors="warning">警告</AcButton>
+<AcButton bcolors="default">信息</AcButton>
+
 ```
 
 ## 效果
