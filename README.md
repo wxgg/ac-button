@@ -5,7 +5,7 @@ $ ynpm install ac-button --save
 
 引入
 
-import {AcButton} from 'ac-button';
+import AcButton from '@yonyou/ac-button';
 
 样式
 
